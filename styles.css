@@ -1,0 +1,150 @@
+:root{
+    --font-family: Georgia, 'Times New Roman', Times, serif;
+    --normal-font: 400;
+    --bold-font: 700;
+    --bolder-font: 900;
+    --bg-color: #f0ebeb;
+    --primary-color: #ccb481;
+    --secondary-color: #aeaa79;
+    --primary-shadow: #ccb481;
+    --secondary-shadow: #0000;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: var(--font-family);
+    background-color: #c1c0b3;
+}
+nav{
+    position: sticky;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 5px rgb(0, 0, 0);
+}
+nav h1{
+    color: var(--primary-color);
+
+}
+nav ul{
+    display: flex;
+    gap: 1.9rem ;
+}
+.biografia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    max-width: 68.75rem;
+    margin: auto;
+    padding: 30px;
+    color: rgb(45, 44, 34);
+}
+.foto_perfil{
+    width: 500px;
+    height: 300px;
+    background-image: url(images/foto-perfil.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid rgb(from color r g b);
+    padding: 0.625rem;
+}
+.bio{
+    width: 85rem;
+    padding: 0.625rem;
+    border-radius: 6px;
+    box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+.habilidades{
+    margin: auto;
+    text-align: center;
+    margin-top: 3rem;
+}
+.encabezado-habilidad{
+    margin-top: 1rem;
+}
+.contenedor-habilidades{
+    padding: 1rem;
+}
+.icono{
+    width: 100px;
+    height: 100px;
+}
+.tarjeta-icono{
+    background-color: azure;
+    border-radius: 11px;
+    box-shadow: 0 3px 10px var(--secondary-color);
+    
+}
+
+
+.proyectos{
+    background-color: #f0ebeb;
+    padding: 32px 0;
+    margin: center;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.foto-de-proyecto{
+    width: 450px;
+    height: 250px;
+    padding-top: 1rem;
+    border-radius: 30px;
+
+}
+.contenedor-de-proyectos{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    padding: 1rem;
+    flex-direction:row;
+}
+.titulo-de-proyectos{
+    text-align: center;
+    margin-bottom: 1rem
+    var(--secondary-color)
+}
+.detalle-de-proyectos{
+    text-align: center;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.enlase-de-proyecto{
+    color: #504f43;
+}
+
+.tarjeta-de-proyecto{
+    background-color: rgb(253, 255, 240);
+    border-radius: 30px;
+    box-shadow: 0 3px 10px var(--secondary-color);
+    padding: 20px;
+    
+}
+.tarjeta-de-proyecto:hover{
+    background-color: #c1c0b3;
+    color: rgb(62, 54, 27);
+}
+
+.enlase-de-proyecto:hover{
+    color: rgb(249, 228, 191);
+}
+
+.sociales{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 1%;
+    bottom: 50%;
+
+}
+
+.socicon{
+    width: 2rem;
+    height: 2rem;
+}
