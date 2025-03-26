@@ -72,8 +72,8 @@ nav ul{
     padding: 1rem;
 }
 .icono{
-    width: 100px;
-    height: 100px;
+    width: 350px;
+    height: 150px;
 }
 .tarjeta-icono{
     background-color: azure;
@@ -145,6 +145,6 @@ nav ul{
 }
 
 .socicon{
-    width: 2rem;
-    height: 2rem;
+    width: 4rem;
+    height: 4rem;
 }
